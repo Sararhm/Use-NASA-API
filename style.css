@@ -1,0 +1,80 @@
+* {
+	outline: none;
+}
+
+body {
+	font-family: Arial;
+	color: white;
+	background-color: black;
+}
+
+img {
+	max-width: 100%;
+}
+
+.align-center {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.apod-card {
+	background: white;
+	color: black;
+	border-radius: 5px;
+	max-width: 600px;
+	width: 90%;
+}
+
+.apod-title {
+	padding: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.apod-image {
+	width: 100%;
+}
+
+.apod-more-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -5px;
+}
+
+.apod-more-info > * {
+	width: 34%;
+	padding: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.apod-more-info > :nth-child(1) {
+	background-color: #C7BEA2;
+}
+
+.apod-more-info > :nth-child(2) {
+	background-color: #AAA492;
+}
+
+.apod-more-info > :nth-child(3) {
+	background-color: #9A9483;
+}
+
+.apod-desc {
+	padding: 15px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+@media only screen and (max-width: 500px)
+{
+	html, body {
+		font-size: 3.2vw;
+	}
+}
